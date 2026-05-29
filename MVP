@@ -1,0 +1,17 @@
+---
+
+## Código Mínimo Funcional (MVP)
+
+Vocês precisam commitar a lógica central do pipeline no repositório. Abaixo está o esqueleto funcional em Python utilizando LangGraph e LangChain, integrando o escopo definido para o David, Daniel e Rafael no documento "Checkpoint 1 - Pesquisa e definicao do mini-projeto.pdf".
+
+### 1. Definição do Estado do Grafo (`state.py`)
+```python
+from typing import TypedDict, List, Optional
+
+class AgentState(TypedDict):
+    enunciado: str
+    codigo_atual: str
+    feedback_critic: Optional[dict]
+    historico_revisoes: List[str]
+    iteracao_atual: int
+    aprovado: bool
