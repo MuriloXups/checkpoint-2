@@ -25,6 +25,19 @@ O projeto utiliza as seguintes tecnologias:
 
 ---
 
+Divisão de Contribuições (Sprint 2)
+David (Tech Lead): Implementação da estrutura do grafo no LangGraph, definição das arestas condicionais e gerência de estado.
+
+Daniel (Dev Coder): Engenharia de prompt do agente Coder, integração com a API do GPT-4o-mini e tratamento de saídas.
+
+Rafael (Dev Critic): Integração dos wrappers de execução local para o pylint, bandit e pytest estruturando o retorno em JSON.
+
+Gabriel (QA): Curadoria dos 10 exercícios propostos e escrita da suíte completa de testes automatizados unitários.
+
+Murilo (Design/Comunicação): Estruturação da documentação técnica e organização dos dados preliminares.
+
+---
+
 ## Como Instalar e Executar
 
 ### 1. Pré-requisitos
@@ -34,3 +47,6 @@ Certifique-se de ter o Python 3.10+ instalado em sua máquina.
 ```bash
 git clone [https://github.com/](https://github.com/)[SEU-USUARIO]/[NOME-DO-REPO].git
 cd [NOME-DO-REPO]
+
+
+
