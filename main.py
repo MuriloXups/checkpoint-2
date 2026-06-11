@@ -1,17 +1,14 @@
+"""Demonstracao rapida do pipeline em UM exercicio (o primeiro do catalogo).
+Para o experimento completo (10 exercicios + grafico): executar_experimento.py."""
 from graph import app
+from exercicios import EXERCICIOS, estado_inicial
 
 if __name__ == "__main__":
-    # Exemplo de teste do pipeline funcional requerido pela Sprint 2
-    input_inicial = {
-        "enunciado": "Escreva uma função 'soma_elementos(lista)' que recebe uma lista e retorna a soma. Retorne 0 se vazia.",
-        "codigo_atual": "",
-        "feedback_critic": None,
-        "historico_revisoes": [],
-        "iteracao_atual": 0,
-        "aprovado": False
-    }
-    
-    print("Iniciando Execução do Grafo Multi-Agente...")
-    for evento in app.stream(input_inicial):
+    exercicio = EXERCICIOS[0]
+    print(f"Demo de 1 exercício ({exercicio['id']}) — avaliação real com pylint + bandit + pytest\n")
+
+    for evento in app.stream(estado_inicial(exercicio)):
         print(evento)
-        print("-" * 40)
+        print("-" * 50)
+
+    print("\nPara o experimento completo (10 exercícios + gráfico): python executar_experimento.py")

@@ -1,0 +1,4 @@
+# Configuracao do pylint para o projeto.
+[FORMAT]
+# Limite de linha de 120 colunas (padrao amplamente adotado, ex.: PEP 8 estendida).
+max-line-length=120

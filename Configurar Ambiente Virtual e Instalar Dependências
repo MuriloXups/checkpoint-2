@@ -8,4 +8,4 @@ source venv/bin/activate
 venv\Scripts\activate
 
 # Instalar dependências necessárias
-pip install langgraph langchain-openai pylint bandit pytest ipykernel
+pip install langgraph langchain-openai langchain-google-genai python-dotenv pylint bandit pytest matplotlib ipykernel

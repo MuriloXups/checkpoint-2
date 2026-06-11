@@ -1,0 +1,14 @@
+# Ambiente virtual
+venv/
+
+# Cache do Python
+__pycache__/
+*.pyc
+
+# Segredos / variaveis de ambiente (NUNCA commitar suas chaves!)
+.env
+
+# Artefatos gerados em runtime pelo agente Critic / experimento
+temp_solucao.py
+_sandbox/
+resultados.json
