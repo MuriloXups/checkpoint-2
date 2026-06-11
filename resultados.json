@@ -1,0 +1,73 @@
+{
+  "soma_elementos": {
+    "qualidades": [
+      8.0,
+      10.0
+    ],
+    "iteracoes": 2,
+    "aprovado_final": true
+  },
+  "fatorial": {
+    "qualidades": [
+      8.28,
+      10.0
+    ],
+    "iteracoes": 2,
+    "aprovado_final": true
+  },
+  "eh_palindromo": {
+    "qualidades": [
+      6.0,
+      10.0
+    ],
+    "iteracoes": 2,
+    "aprovado_final": true
+  },
+  "eh_primo": {
+    "qualidades": [
+      8.86,
+      10.0
+    ],
+    "iteracoes": 2,
+    "aprovado_final": true
+  },
+  "fibonacci": {
+    "qualidades": [
+      8.91,
+      10.0
+    ],
+    "iteracoes": 2,
+    "aprovado_final": true
+  },
+  "inverter_string": {
+    "qualidades": [
+      6.0,
+      10.0
+    ],
+    "iteracoes": 2,
+    "aprovado_final": true
+  },
+  "contar_vogais": {
+    "qualidades": [
+      8.86,
+      10.0
+    ],
+    "iteracoes": 2,
+    "aprovado_final": true
+  },
+  "maior_elemento": {
+    "qualidades": [
+      8.0,
+      10.0
+    ],
+    "iteracoes": 2,
+    "aprovado_final": true
+  },
+  "fizzbuzz": {
+    "qualidades": [
+      9.27
+    ],
+    "iteracoes": 1,
+    "aprovado_final": true
+  }
+}

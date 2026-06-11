@@ -8,7 +8,8 @@ __pycache__/
 # Segredos / variaveis de ambiente (NUNCA commitar suas chaves!)
 .env
 
-# Artefatos gerados em runtime pelo agente Critic / experimento
+# Artefatos de runtime que NAO precisam ir pro repo
 temp_solucao.py
 _sandbox/
-resultados.json
+
+# Observacao: resultados.json E versionado de proposito (evidencia por tras do grafico)
